@@ -1,3 +1,13 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: black; /* Color de fondo negro */
+    color: white; /* Color del texto blanco */
+}
+
 #inicio-sesion {
     max-width: 400px;
     margin: auto;
