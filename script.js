@@ -33,3 +33,46 @@ function registrarUsuario() {
             alert('¡El script se ejecutó correctamente!');
         });
 }
+document.addEventListener('DOMContentLoaded', function() {
+        verificarSesion();
+});
+
+function iniciarSesion() {
+    var usuario = {
+        nombre: "NombreUsuario",
+        correo: document.getElementById('usuario').value
+    };
+
+    localStorage.setItem('sesionIniciada', 'true');
+    
+    localStor
+localStorage.setItem('usuario', JSON.stringify(usuario));
+
+    verificarSesion();
+}
+function cerrarSesion() {
+    
+    localStorage.removeItem('sesionIniciada');
+    localStorage.removeItem('usuario');
+
+    verificarSesion();
+}
+function verificarSesion() {
+    var nombreUsuarioElement = document.getElementById('nombre-usuario');
+    var cerrarSesionElement = document.getElementById('cerrar-sesion');
+
+    var sesionIniciada = localStorage.getItem('sesionIniciada') === 'true';
+
+    if (sesionIniciada) {
+        var usuario = JSON.parse(localStorage.getItem('usuario'));
+        nombreUsuarioElement.textContent = usuario.nombre;
+        cerrarSesionElement.
+        cerrarSesionE
+style.display = 'inline';
+    } else {
+        nombreUsuarioElement.
+     
+textContent = '';
+        cerrarSesionElement.style.display = 'none';
+    }
+}
