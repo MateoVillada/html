@@ -48,4 +48,30 @@ section img {
     margin-top: 4k0px;
 }
 
-/* Otros estilos según sea necesario */
+
+#servicios {
+    max-width: 800px;
+    
+    mar
+margin:auto;
+    padding: 20px;
+}
+
+.servicio {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#reseñas {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+.resena {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+}
