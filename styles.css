@@ -9,7 +9,7 @@ body {
 nav {
     background-color: #333;
     color: #fff;
-    padding: 10px;
+    padding: 40px;
 }
 
 nav ul {
@@ -40,12 +40,12 @@ header {
 section {
     max-width: 600px;
     margin: auto;
-    padding: 40;
+    padding: 60;
 }
 
 section img {
     max-width: 70px;
-    margin-top: 40px;
+    margin-top: 600px;
 }
 
 /* Otros estilos según sea necesario */
