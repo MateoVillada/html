@@ -27,4 +27,11 @@ function registrarUsuario() {
     document.getElementById('form-registro-usuario').reset();
 
     alert('Usuario registrado con éxito');
+
+    document.addEventListener('DOMContentLoaded', function() {
+    
+    
+        // Manipulación del DOM o llamadas a funciones
+            alert('¡El script se ejecutó correctamente!');
+        });
 }
