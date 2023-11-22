@@ -110,3 +110,26 @@ color: #000000;
     list-style-type: none;
     padding: 0;
 }
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+@media screen and (max-width: 480px) {
+    body {
+        align-items: flex-start; /
+    }
+
+    #inicio-sesion, #registro-usuario {
+        max-width: 100%; 
+    }
+
+    #form-inicio-sesion, #form-registro-usuario {
+        padding: 10px; 
+    }
+}
