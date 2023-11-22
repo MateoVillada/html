@@ -94,3 +94,23 @@ color: #fff;
     text-decoration: none;
     color: #fff;
 }
+#inicio-sesion {
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+#form-inicio-sesion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#form-inicio-sesion label, #form-inicio-sesion input {
+    margin-bottom: 10px;
+}
+
+#form-inicio-sesion button {
+    margin-top: 10px;
+}

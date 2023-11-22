@@ -30,8 +30,6 @@ function registrarUsuario() {
 
     document.addEventListener('DOMContentLoaded', function() {
     
-    
-        // Manipulación del DOM o llamadas a funciones
             alert('¡El script se ejecutó correctamente!');
         });
 }
