@@ -1,4 +1,23 @@
+#inicio-sesion {
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
 
+#form-inicio-sesion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#form-inicio-sesion label, #form-inicio-sesion input {
+    margin-bottom: 10px;
+}
+
+#form-inicio-sesion button {
+    margin-top: 10px;
+}
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -44,8 +63,43 @@ section {
 }
 
 section img {
-    max-width: 100px;
-    margin-top: 40px;
+    max-width: 1000px;
+    margin-top: 100px;
 }
 
-/* Otros estilos según sea necesario */
+
+#servicios {
+    max-width: 800px;
+margin: auto;
+    padding: 20px;
+}
+
+.servicio {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#reseñas {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+.resena {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+footer {
+    background-color: #333;
+color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.redes-sociales {
+    list-style-type: none;
+    padding: 0;
+}
