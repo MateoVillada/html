@@ -1,8 +1,8 @@
 body {
     height: 100vh;
     margin: 0;
-    background-color: black; /* Color de fondo negro */
-    color: white; /* Color del texto blanco */
+    background-color: black; 
+    color: white;
 }
 
 #inicio-sesion {
