@@ -1,12 +1,10 @@
 function registerUser() {
-    // Obtener los valores del formulario
     var firstName = document.getElementById("firstName").value;
     var lastName = document.getElementById("lastName").value;
     var email = document.getElementById("email").value;
     var password = document.getElementById("password").value;
     var gender = document.getElementById("gender").value;
 
-    // Crear un objeto de usuario
     var user = {
         firstName: firstName,
         lastName: lastName,
@@ -15,17 +13,19 @@ function registerUser() {
         gender: gender
     };
 
-    // Obtener usuarios existentes del localStorage
-    var existingUsers = JSON.parse(localStorage.getItem("users")) || [];
+    if (authenticatedUser) {
+        // Mostrar el nombre del usuario y opción para cerrar sesión
+        userMenu.innerHTML = `
+            <li>Bienvenido, ${authenticatedUser}</li>
+            <li><a href="#" id="logout">Cerrar Sesión</a></li>
+        `;
 
-    // Agregar el nuevo usuario al arreglo
-    existingUsers.push(user);
+        // Manejar evento de cierre de sesión
+        const logoutButton = document.getElementById('logout');
+        logoutButton.addEventListener('click', function () {
+            // Limpiar localStorage al cerrar sesión (esto debería ser manejado por el servidor en un entorno real)
+            localStorage.clear();
+            // Redirigir a la página de inicio
+            window.location.href = 'brazo.html';
 
-    // Guardar el arreglo actualizado en el localStorage
-    localStorage.setItem("users", JSON.stringify(existingUsers));
-
-    // Limpiar el formulario después del registro
-    document.getElementById("registrationForm").reset();
-
-    alert("¡Registro exitoso!");
 }
