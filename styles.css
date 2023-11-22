@@ -40,11 +40,11 @@ header {
 section {
     max-width: 600px;
     margin: auto;
-    padding: 40;
+    padding: 40px;
 }
 
 section img {
-    max-width: 70px;
+    max-width: 100px;
     margin-top: 40px;
 }
 
