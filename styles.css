@@ -1,0 +1,51 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos del menú de navegación */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Estilos del banner */
+header {
+    background-color: #4CAF50;
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+}
+
+/* Estilos de la sección "Acerca de nosotros" */
+section {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+
+section img {
+    max-width: 40px;
+    margin-top: 10px;
+}
+
+/* Otros estilos según sea necesario */
