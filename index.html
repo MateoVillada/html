@@ -59,5 +59,55 @@
                             <li><a href="https://twitter.com/Chugamc2" target="_blank">Twitter</a></li>
                         </ul>
                     </footer>
+                    <head>
+                        <meta charset="UTF-8">
+                        <meta name="viewport" content="width=device-width, initial-scale=1">
+                        <link rel="stylesheet" href="styles.css">
+                        <title>Distribuidora de Brazos Robóticos</title>
+                        <script src="script.js" defer></script>
+                    </head>
+                
+                        <section id="inicio-sesion">
+                            
+                       
+                    <h2>Iniciar Sesión</h2>
+                            <form id="form-inicio-sesion">
+                                <label for="usuario">Correo Electrónico:</label>
+                                
+                          
+                    <input type="email" id="usuario" required>
+                                
+                                <label for="contrasena">Contraseña:</label>
+                                <input type="password" id="contrasena" required>
+                    
+                                <button type="button" onclick="iniciarSesion()">Iniciar Sesión</button>
+                            </form>
+                        </section>
+
+                        <section id="registro-usuario">
+                            <h2>Registro de Usuario</h2>
+                            <form id="form-registro-usuario">
+                                <label for="nombres">Nombres:</label>
+                                <input type="text" id="nombres" required>
+                    
+                                <label for="apellidos">Apellidos:</label>
+                                <input type="text" id="apellidos" required>
+                    
+                                <label for="correo">Correo Electrónico:</label>
+                                <input type="email" id="correo" required>
+                    
+                                <label for="contrasena-registro">Contraseña:</label>
+                                <input type="password" id="contrasena-registro" required>
+                    
+                                <label for="genero">Género:</label>
+                                <select id="genero" required>
+                                    <option value="masculino">Masculino</option>
+                                    <option value="femenino">Femenino</option>
+                                    <option value="otro">Otro</option>
+                                </select>
+                    
+                                <button type="button" onclick="registrarUsuario()">Registrar</button>
+                            </form>
+                        </section>
 </body>
 </html>
