@@ -44,66 +44,8 @@ section {
 }
 
 section img {
-    max-width: 500px;
-    margin-top: 4k0px;
+    max-width: 100px;
+    margin-top: 40px;
 }
 
-
-#servicios {
-    max-width: 800px;
-    margin:auto;
-    padding: 20px;
-}
-
-.servicio {
-    border: 1px solid #ddd;
-    padding: 10px;
-    margin-bottom: 20px;
-}
-
-#reseñas {
-    max-width: 800px;
-    margin: auto;
-    padding: 20px;
-}
-
-.resena {
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
-    padding: 10px;
-    margin-bottom: 20px;
-}
-footer {
-    background-color: #333;
-color: #fff;
-    text-align: center;
-    padding: 20px;
-}
-body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    margin: 0;
-}
-
-#inicio-sesion {
-    max-width: 400px;
-    padding: 20px;
-    text-align: center;
-}
-
-#form-inicio-sesion {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#form-inicio-sesion label,
-#form-inicio-sesion input {
-    margin-bottom: 10px;
-}
-
-#form-inicio-sesion button {
-    margin-top: 10px;
-}
+/* Otros estilos según sea necesario */
